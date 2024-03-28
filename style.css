@@ -6,10 +6,10 @@ body
 }
 #box
 {
-    margin-top:30px ;
-    height: 500px;
-    width: 500px;
-    border: 2px solid rgb(2, 161, 16);
+    margin-top:8vmin ;
+    height: 70vh;
+    width: 35vw;
+    border: 0.35vmin solid rgb(2, 161, 16);
     display: grid;
     position: absolute;
     grid-template-rows: repeat(20, 1fr);
@@ -24,19 +24,18 @@ body
     justify-content: center;
     height: 96vh;
     width: 97vw;
-    /* border: 2px solid; */
     position: relative;
 }
 #score{
-    margin-top: 100px;
-    margin-right: 800px;
-    border: 2px solid;
-    height: 20px;
-    padding: 5px;
+    margin-top: 10vmin;
+    margin-right: 91vmin;
+    border: 0.35vmin solid;
+    height: 4vmin;
+    padding: 1vmin;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    width: 80px;
-    padding-left: 10px;
-    border-radius: 10px;
+    width: 12vmin;
+    padding-left: 1vmin;
+    border-radius: 1.5vmin;
     position: absolute;
     
    
@@ -44,14 +43,14 @@ body
 .start 
 {
     background-color: rgb(170, 255, 0);
-    height: 30px;
-    width: 100px;
-    margin-right: auto;
+    height: 5vmin;
+    width: 20vmin;
+    /* margin-right: auto; */
     margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 135px;
-    border: 2px solid;
-    font-size: 20px;
+    margin-bottom: 5vmin;
+    margin-left:20vmin;
+    border: 0.35vmin solid;
+    font-size: 4vmin;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -59,7 +58,7 @@ body
 .snake
 {
     background-color: rgb(25, 140, 48);
-    border-radius: 8px;
+    border-radius: 1vmin;
 }
 .food
 {
@@ -67,16 +66,16 @@ body
    border-radius: 50%;
 }
 .game-over{
-    height: 110px;
-    width: 500px;
-    border: 2px solid;
+    height: 18vh;
+    width: 35vw;
+    border: 0.35vmin solid;
     margin: auto;
     position: absolute;
-    margin-top: 230px;
+    margin-top: 35vmin;
     transition: 1s all ease-in ;
-    font-size: 80px;
+    font-size: 15vmin;
     text-align: center;
     display:block;
-    padding-top: 10px;
+    padding-top: 1vmin;
     font-family:fantasy ;
 }
