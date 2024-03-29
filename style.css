@@ -6,7 +6,7 @@ body
 }
 #box
 {
-    margin-top:8vmin ;
+    margin-top:3vmin ;
     height: 70vmin;
     width: 70vmin;
     border: 0.35vmin solid rgb(2, 161, 16);
@@ -27,7 +27,8 @@ body
     position: relative;
 }
 #score{
-    margin-top: 10vmin;
+    font-size: 3vmin;
+    margin-top: 4vmin;
     margin-right: 91vmin;
     margin-left: 5vmin;
     border: 0.35vmin solid;
@@ -47,12 +48,13 @@ body
     height: 5vmin;
     width: 20vmin;
     /* margin-right: auto; */
-    margin-top: 85vmin;
-    margin-bottom: 5vmin;
-    margin-left:20vmin;
+    margin-top: 84vmin;
+    /* margin-bottom: vmin; */
+    margin-left: 50vmin;
     border: 0.35vmin solid;
     font-size: 4vmin;
     font-weight: bolder;
+    position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -72,11 +74,69 @@ body
     border: 0.35vmin solid;
     margin: auto;
     position: absolute;
-    margin-top: 35vmin;
-    transition: 1s all ease-in ;
+    margin-top: 29vmin;
+    transition: 1.5s all ease-in ;
     font-size: 15vmin;
     text-align: center;
     display:block;
     padding-top: 1vmin;
     font-family:fantasy ;
+}
+
+#controls
+{
+    height: 18vmin;
+    width: 38vmin;
+    /* border: 0.1rem solid; */
+    margin-top: 80vmin;
+    margin-right: 20vmin;
+    margin-bottom: 1vmin;
+    display: flex;
+}
+
+.up
+{
+    font-size: 4.5vmin;
+    text-align: center;
+    height: 5vmin;
+    width: 10vmin;
+    border: .1rem solid;
+    margin-top: 0.7vmin;
+    margin-left: 14vmin;
+    position: absolute;
+}
+.right
+{
+    font-size: 4.5vmin;
+    text-align: center;
+    height: 5vmin;
+    width: 10vmin;
+    border: .1rem solid;
+    margin-top: 6.35vmin;
+    margin-left: 26vmin;
+    position: absolute;
+    
+}
+.left
+{
+    font-size: 4.5vmin;
+    text-align: center;
+    height: 5vmin;
+    width: 10vmin;
+    border: .1rem solid;
+    margin-top: 6.35vmin;
+    margin-right: 16vmin;
+    margin-left: 2vmin;
+    position: absolute;
+}
+
+.down{
+    font-size: 4.5vmin;
+    text-align: center;
+    height: 5vmin;
+    width: 10vmin;
+    border: .1rem solid;
+    margin-top: 12vmin;
+    margin-left: 14vmin;
+    position: absolute;
 }

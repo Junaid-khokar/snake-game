@@ -129,6 +129,25 @@ document.addEventListener("keydown" ,event=>{
     }
 })
 
+document.addEventListener('click' , (e) =>{
+    if(e.target.innerHTML == 'L' && position!= 'right')
+    {
+        position = 'left' ;
+    }
+    else if( e.target.innerHTML == 'U' && position != 'down')
+    {
+        position = 'up';
+    }
+    else if( e.target.innerHTML == 'R' && position != 'left')
+    {
+        position = 'right' ;
+    }
+    else if( e.target.innerHTML == 'D' && position!= 'up')
+    {
+        position = 'down' ;
+    }
+})
+
 function hitonwall()
 {
     hit.play();
